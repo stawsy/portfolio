@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*  Colour palatte used is Peachy Soda - https://www.color-hex.com/color-palette/23091  */
+
+body {
+    background-color: #fb452b;
+    color: #fb452b;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "DynaPuff", system-ui, "Open Sans", sans-seri;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+h2 {
+    font-size: 40px;
+    color: #fb452b;
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 30px;
+    color: #ffcbb9;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+p {
+    font-size: 20px;
+    color: #fb452b;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.header {
+    background-color: #ffffff;
+}
+
+.content {
+    background-color: #ffcbb9;
+}
+
+.footer {
+    background-color: #fb452b;
+    color: #ffcbb9;
+}
+
+.rounded-panel {
+    background-color: #fb452b;
+    color: #ffcbb9;
+    border-radius: 500px;
+    
+        h2, p {
+            color: #ffcbb9;
+            font-size: 30px;
+            font-family: "DynaPuff", system-ui, "Open Sans", sans-seri;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+        }
+
+}
+
+img {
+    width: 100%;
+    padding: 4px;
+    height: auto;
+}
+
+.clouds {
+    top:60px
+}
